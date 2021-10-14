@@ -1,0 +1,37 @@
+.weather{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px 2px black;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    height: 50%;
+    
+
+}
+
+    
+    .btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+    .btn-grad {
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 5px;
+       padding: 10px 65px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    
